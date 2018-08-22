@@ -1,0 +1,24 @@
+{
+  "name": "vue2-hover-intent",
+  "version": "1.0.0",
+  "description": "Hover intent",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/gabrieliuga/vue2-hover-intent.git"
+  },
+  "keywords": [
+    "vue2",
+    "hover",
+    "intent"
+  ],
+  "author": "Gabriel Iuga",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/gabrieliuga/vue2-hover-intent/issues"
+  },
+  "homepage": "https://github.com/gabrieliuga/vue2-hover-intent#readme"
+}
