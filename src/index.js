@@ -28,7 +28,7 @@ export default {
         });
     },
     unbind: function (el) {
-        let obj = state.get(el);
+        let obj = el.hover;
         if (obj.timer !== null) {
             clearTimeout(obj.timer);
         }
