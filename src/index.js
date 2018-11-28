@@ -1,7 +1,7 @@
 export default {
     isFn: true,
     bind: function (el, binding, vNode) {
-        let obj = {
+        var obj = {
             timer: null,
             speed: 200
         }
@@ -28,7 +28,7 @@ export default {
         });
     },
     unbind: function (el) {
-        let obj = el.hover;
+        var obj = el.hover;
         if (obj.timer !== null) {
             clearTimeout(obj.timer);
         }
